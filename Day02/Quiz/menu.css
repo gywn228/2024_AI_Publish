@@ -1,0 +1,12 @@
+div {
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  width: 250px;
+  border-radius: 2px;
+}
+
+p {
+  color: red;
+  font-size: 20px;
+}

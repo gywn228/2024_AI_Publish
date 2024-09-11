@@ -1,0 +1,42 @@
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.color {
+  width: 150px;
+  height: 100px;
+  font-size: 10px;
+  color: white;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.a {
+  background-color: #1abc9c;
+}
+.b {
+  background-color: #2ecc71;
+}
+.c {
+  background-color: #3498db;
+}
+.d {
+  background-color: #16a085;
+}
+.e {
+  background-color: #27ae60;
+}
+.f {
+  background-color: #2980b9;
+}
+.g {
+  background-color: #f1c40f;
+}
+.h {
+  background-color: #e67e22;
+}
+.i {
+  background-color: #e74c3c;
+}
