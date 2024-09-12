@@ -1,0 +1,86 @@
+.big {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+}
+
+.a {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  gap: 10px;
+  font-weight: 900;
+}
+
+.b {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: gray;
+  font-weight: 900;
+}
+
+.c {
+  color: gray;
+  padding-top: 5px;
+  font-size: 15px;
+}
+.d {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.e {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.f {
+  font-size: 13px;
+  color: gray;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.g {
+  width: 40px;
+  height: 25px;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: red;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.box2 {
+  width: 300px;
+  height: 400px;
+}
+
+.photo {
+  width: 250px;
+  height: 370px;
+}
+
+.photo > img {
+  width: 250px;
+  height: 370px;
+  object-fit: cover;
+  padding-top: 20px;
+}
