@@ -1,0 +1,47 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-key-visual-electrified-g80-25fl-main-hero-desktop-2560x900-kr.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 150px;
+  color: white;
+}
+
+.a {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.b {
+  font-size: 80px;
+  font-weight: 100;
+}
+
+.c {
+  font-size: 25px;
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+.more {
+  margin-top: 400px;
+  font-size: 15px;
+}
+
+.more > span {
+  margin-right: 40px;
+}

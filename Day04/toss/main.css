@@ -1,0 +1,98 @@
+@import url("https://static.toss.im/tps/main.css");
+@import url("https://static.toss.im/tps/others.css");
+
+* {
+  font-family: "Toss Product Sans";
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://static.toss.im/assets/homepage/newtossim/new_main.png");
+  background-size: cover;
+}
+
+.centeredBox {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
+  gap: 25px;
+  font-weight: 700;
+  padding: 200px 150px;
+}
+
+.iconbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 30px;
+}
+
+.icon {
+  background-color: rgba(0, 12, 30, 0.8);
+  color: white;
+  padding: 11px 16px 11px 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+button {
+  transition: all 0.3s;
+}
+
+.iconbox > button:hover {
+  background-color: rgb(78, 89, 104);
+}
+
+i {
+  padding: 0px 3px;
+  font-size: 20px;
+}
+
+.icon > img {
+  width: 20px;
+}
+
+.contents2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  gap: 25px;
+  font-weight: 700;
+  padding: 250px 45px;
+}
+
+.whiteBlur {
+  /* 포지션 잡기 */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* 화이트 블러의 넓이와 높이 */
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(
+    180deg,
+    white 0%,
+    white 59px,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
